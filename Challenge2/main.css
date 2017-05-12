@@ -1,0 +1,122 @@
+
+body {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.nav-menu {
+    /*margin: 0 auto;*/
+    /*padding-left: 0;*/
+    /*justify-content: center;*/
+}
+
+.nav-menu-list {
+    padding-left: 0;
+    margin: 0;
+    /*display: inline;*/
+    list-style-type: none;
+}
+
+.nav-menu-item {
+    /*margin: 0 auto;*/
+    /*background-color: #ffffff;*/
+    color: #A2A4A4;
+    font-weight: bolder;
+    /*display: block;*/
+    font-size: 25px;
+    /*border: 5px;*/
+    /*border: 5px solid black;*/
+    padding: 2px;
+}
+
+.content {
+    color: #A2A4A4;
+    /*width: 100%;*/
+} 
+
+.block-heading { 
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.block-paragraph {
+    font-size: 13px;
+}
+
+.footer {
+    /*background-color: #ffffff;*/
+    /*color: Black;*/
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.anvil-image {
+    display: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+@media  (min-width: 768px) { 
+ 
+    .anvil-image {
+        margin: 20px auto;
+        width: 100%;
+        display: block;
+    }
+
+    .nav-menu {
+        display: inline-block;
+        float: right;
+    }
+
+    .nav-menu-list {
+        display: block;
+        margin: 60px 0 0;
+        /*float: right;*/
+    }
+    
+    .nav-menu-item {
+        display: inline-block;
+        font-weight: normal;
+        padding: 0 5px 0px 23px;
+    }
+
+    .header {
+        display: inline-block;
+    }
+
+    .body-content {
+        margin: 70px 70px;
+    }
+
+    .block-heading { 
+        font-weight: normal;
+        font-size: 24px;
+        columns: 1;
+    }
+
+    .block-1 {
+        display: inline-block;
+        width: 45%;
+        margin-right: 9%;
+        /*columns: 1;*/
+    }
+
+    .block-2 {
+        display: inline-block;
+        width: 45%;
+        /*columns: 1;*/
+    }
+
+    .content {
+        /*columns: 2;*/
+        /*justify-content: center;*/
+        /*column-gap: 50px;*/
+    }
+
+    .block-paragraph {
+        font-size: 12px;
+
+    }
+
+}
+
